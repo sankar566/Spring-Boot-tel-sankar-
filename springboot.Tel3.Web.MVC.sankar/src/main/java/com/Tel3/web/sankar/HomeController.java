@@ -31,7 +31,7 @@ public class HomeController {
 		System.out.println("This is home2 method ");
 		return "Home.jsp";
 	}
-	    // jsp page open and output will produce in console 
+	    // jsp page open and output will produce in console --http://localhost:8080/home4?dog=rocky
 	    @RequestMapping("home4")
 		public String home4(HttpServletRequest req) {
 	    String name = req.getParameter("dog");
